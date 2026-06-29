@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#f4f4f4;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    background:white;
+    padding:20px;
+    border-bottom:1px solid #ddd;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:40px auto;
+}
+
+h2{
+    margin:20px 0;
+}
+
+hr{
+    margin:40px 0;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border:1px solid #ddd;
+    border-radius:6px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+input{
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+
+label{
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+
+button{
+    width:150px;
+    padding:10px;
+    background:#222;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th,
+td{
+    padding:12px;
+    border-bottom:1px solid #ddd;
+    text-align:left;
+}
+
+thead{
+    background:#f3f3f3;
+}
+
+.button-group{
+    display:flex;
+    gap:10px;
+}
+
+.secondary-button{
+    background:#777;
+}
+
+.danger-button{
+    background:#b00020;
+    margin-left:8px;
+}
+
+select{
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
