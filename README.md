@@ -1,16 +1,61 @@
-# React + Vite
+# Movies CRUD
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack CRUD application developed as a technical assessment for managing directors and movies.
 
-Currently, two official plugins are available:
+## Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Frontend
 
-## React Compiler
+* React
+* Vite
+* JavaScript
+* CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Backend *(In Progress)*
 
-## Expanding the ESLint configuration
+* FastAPI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Database *(Planned)*
+
+* PostgreSQL
+
+## Current Features
+
+### Frontend
+
+* CRUD interface for Directors
+
+  * Create
+  * Read
+  * Update
+  * Delete
+* CRUD interface for Movies
+
+  * Create
+  * Read
+  * Update
+  * Delete
+* Movie and Director relationship through the user interface.
+* Minimal and responsive design.
+* 
+<img width="1771" height="809" alt="image" src="https://github.com/user-attachments/assets/3e1cb13a-bc8c-4e4a-a2c8-70e916eb68c7" />
+<img width="1576" height="725" alt="image" src="https://github.com/user-attachments/assets/38569c83-0f2a-4e44-b818-86e7ab257b45" />
+
+## Running the Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+The application will be available at:
+
+```text
+http://localhost:5173
+```
+
+## Author
+
+Valeria Herrera
+
